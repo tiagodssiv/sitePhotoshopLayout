@@ -1,0 +1,356 @@
+body{
+background:url("../imagens/fundo.jpg") repeat-x;/* esta regra põe background de imagem em todo o bady do html e vai ampliar 
+verticalmente com o repeat-x*/
+font-family: Arial;
+margin-top:0px;
+
+}
+div#header{
+margin:0px auto;
+width:800px;
+height:140px;
+
+
+}
+
+
+
+div#header ul {
+list-style: none;
+padding-left: 0;
+float: left;/*vai ignorar o display block e vai estar numa camada onde pode aceitar outros elementos lado a lado*/
+
+position:absolute;
+right:300px;
+margin-right:5px;
+align-items: center;
+margin-top:55px;
+
+}
+
+div#header ul li a{
+
+   text-decoration: none;
+   color:#737373;
+   font-size:12px;
+   padding-top:8px;
+  
+    
+}
+
+div#header ul li a:hover{
+border-top:5px solid #f9e013;/*especificamente ao passar o mause sobre o menu vai surgir uma borda 
+em cima do texto , isso porque a borda é border-top*/
+transition: all .2s;
+
+}
+div#header ul li{
+float:left;
+margin-left:20px;
+
+}
+div#header h1 {
+
+margin-top: 10px;
+float: left;/*vai ignorar o display block e vai estar numa camada onde pode aceitar outros elementos lado a lado*/
+
+
+}
+div#header ul li a.ativa{
+border-top:5px solid #f17e02;
+
+}
+
+div#banner{
+    /*margin-left:267px ;*/
+    position: relative;
+    margin:0 auto;
+
+}
+
+div#banner button{
+border-radius:20px;
+
+position: absolute;
+margin-left:560px;
+margin-top:190px;
+width:130px;
+height:35px;
+cursor: pointer;
+background:linear-gradient(to top , #cab60f,#f5dd13);
+
+color:azure;
+box-shadow: 1px 1px 2px 0.5px #737373;
+padding:5px 20px;
+
+
+}
+
+div#banner button:hover{
+
+    background:linear-gradient(to top ,#f5dd13 , #cab60f);
+
+}
+
+div#artigo{
+    position:relative;
+    height:400px;
+    width:800px;
+    
+    margin:0px auto;
+
+
+
+
+}
+
+div#content{
+    
+padding:5px 20px;
+height:300px;
+width:250px;
+margin:0;
+font-family: Arial;
+}
+
+div#content a{
+margin-bottom: 50px;
+width:110px;
+
+background:black;
+text-decoration: none;
+padding:10px 30px;
+color:ghostwhite;
+height: 30px;
+
+}
+
+div#content p{
+
+margin-bottom:25px;
+
+
+}
+
+div#content h1{
+
+
+    margin-top:30px;
+
+}
+
+
+
+
+
+
+div#contentt{
+    float:right;
+    padding:5px 20px;
+    height:300px;
+    width:250px;
+    margin:0;
+    font-family: Arial;
+    position: absolute;
+    top:0px;
+    right:250px;
+
+
+    }
+    
+    div#contentt a{
+    margin-bottom: 50px;
+    width:110px;
+    
+    background:black;
+    text-decoration: none;
+    padding:10px 30px;
+    color:ghostwhite;
+    height: 30px;
+    
+    }
+    
+    div#contentt p{
+    
+    margin-bottom:25px;
+    
+    
+    }
+    
+    div#contentt h1{
+    
+    
+        margin-top:30px;
+    
+    }
+
+
+
+
+
+
+
+    
+
+div#contenttt{
+    float:right;
+    padding:5px 20px;
+    height:300px;
+    width:250px;
+    margin:0;
+    font-family: Arial;
+    position: absolute;
+    top:0px;
+    right:-15px;
+   
+
+    }
+    
+    div#contenttt a{
+    margin-bottom: 50px;
+    width:110px;
+    
+    background:black;
+    text-decoration: none;
+    padding:10px 30px;
+    color:ghostwhite;
+    height: 30px;
+    
+    }
+    
+    div#contenttt p{
+    
+    margin-bottom:25px;
+    
+    
+    }
+    
+    div#contenttt h1{
+    
+    
+        margin-top:30px;
+    
+    }
+    div#footer{
+width:800px;
+background:#fbe013;
+position:absolute;
+bottom: -748px;
+height:40px;
+
+
+    }
+
+    div#footer p
+    {text-align: right;
+        margin:10px;
+
+    }
+div#global{
+   width:800px;
+    margin:0 auto;
+  
+}
+div#contato{
+
+margin:0 auto;
+
+width:800px;
+position: absolute;
+bottom: -400px;
+height:400px;
+
+
+}
+div#contato form{
+
+    display: flex;
+    flex-direction:column;
+    width:400px;
+    
+   margin-left: 365px;
+   position:absolute;
+   top:80px;
+   
+}
+
+div#contato h1{
+    margin-left:13px;
+    text-align: center;
+    color:#f17e02;
+}
+div#contato h6{
+    margin-left:30px;
+display:flex;
+flex-direction: column;
+font-size:20px;
+text-align: center;
+color:#f17e02;
+}
+
+div#texto{
+margin-top:85px;
+    width:300px;
+}
+
+
+div#contato form input[type="button"]{ 
+
+    color:snow;
+    margin-top:10px;
+    width:130px;
+    border-radius:30px;
+    height:35px;
+    margin-left:140px;
+    background:linear-gradient(to top , #cab60f,#f5dd13);
+    cursor:pointer;
+}
+div#contato form input[type=button]:hover{ 
+
+    background:linear-gradient(to top ,#f5dd13 , #cab60f);
+
+
+}
+div#contato form input[type=text]:focus{
+color:#f17e02;
+    outline: none !important;
+    border-color: #f17e02;
+    box-shadow: 0 0 10px #f17e02;
+
+ }
+div#contato form input[type=text]{ 
+    color:#f17e02;
+
+   height:30px;
+    margin-top:10px;
+    
+    border-radius:5px;
+    border-color: #f17e02;
+   
+}
+
+div#contato form textarea{
+    border-color: #f17e02;
+    margin-top:10px;
+    color:#f17e02;
+    border-radius:5px;
+
+ }
+
+
+ div#contato form textarea:focus{
+
+    margin-top:10px;
+    
+    border-radius:5px;
+
+    color:#f17e02;
+    outline: none !important;
+    border-color: #f17e02;
+    box-shadow: 0 0 10px #f17e02;
+
+
+ }
+
+
+    
